@@ -1,0 +1,23 @@
+CREATE DATABASE abs;
+
+USE abs;
+
+CREATE TABLE absdb (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    flight_number VARCHAR(255),
+    flight_name VARCHAR(255),
+    flight_date DATE,
+    departure VARCHAR(255),
+    destination VARCHAR(255),
+    departure_time TIME,
+    arrival_time TIME,
+    seat_number VARCHAR(255),
+    class_type VARCHAR(255),
+    is_available BOOLEAN,
+    price_amount DECIMAL(10, 2),
+    price_currency VARCHAR(10),
+    client_name VARCHAR(255),
+    client_passport_number VARCHAR(255),
+    client_contact_details TEXT,
+    client_phone_number VARCHAR(255)
+);
