@@ -1,3 +1,7 @@
+////kashika,aminuddin,izzamer,puvandraan,jeevananthan
+//22006368,22007578,22005742,22002099,22005408
+
+
 CREATE DATABASE abs;
 
 USE abs;
