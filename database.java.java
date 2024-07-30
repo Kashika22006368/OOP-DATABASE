@@ -1,6 +1,10 @@
 //kashika,aminuddin,izzamer,puvandraan,jeevananthan
 //22006368,22007578,22005742,22002099,22005408
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 private void addReservationToDatabase(FlightReservation reservation) {
     String url = "jdbc:mysql://localhost:3306/abs"; // Updated database name
